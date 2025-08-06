@@ -1,0 +1,10 @@
+{
+  "name": "webapp-anonima-media",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pdfkit": "^0.17.1",
+    "sqlite3": "^5.1.6"
+  }
+}
