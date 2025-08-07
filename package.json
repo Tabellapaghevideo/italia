@@ -1,26 +1,10 @@
 {
-  "name": "sito",
+  "name": "webapp-anonima-media",
   "version": "1.0.0",
-  "description": "",
-  "main": "admin.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tabellapaghevideo/italia.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tabellapaghevideo/italia/issues"
-  },
-  "homepage": "https://github.com/Tabellapaghevideo/italia#readme",
+  "main": "server.js",
   "dependencies": {
-  "express": "^5.1.0",
-  "better-sqlite3": "^8.0.0"
-}
-
+    "express": "^4.19.2",
+    "pdfkit": "^0.17.1",
+    "sqlite3": "^5.1.6"
+  }
 }
