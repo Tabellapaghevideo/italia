@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // Configurazione password admin
-const ADMIN_PASSWORD = 'La9k!s39G@u'; // Puoi cambiarla
+const ADMIN_PASSWORD = 'Videoadmin'; // Puoi cambiarla
 const ACTIVE_TOKENS = new Set();
 
 // DB setup
