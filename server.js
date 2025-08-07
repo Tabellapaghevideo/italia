@@ -1,7 +1,10 @@
 const express = require('express');
-const sqlite3 = require('sqlite3').verbose();
+const Database = require('better-sqlite3');
+const db = new Database('miodb.sqlite');
 const path = require('path');
 const crypto = require('crypto');
+
+const row = db.prepare('SELECT * FROM utenti WHERE id = ?').get(1);
 
 const app = express();
 const PORT = 3000;
